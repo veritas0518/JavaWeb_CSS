@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS和Html结合使用（优化）</title>
+    <!--  style标签专门用来定义CSS样式代码  -->
+    <style type="text/css">
+        /*  给div加上样式
+            所有的div都能有效，提高代码复用
+        */
+        div{
+            border :1px solid red;
+        }
+        /*  给span加上样式 */
+        span{
+            border :1px solid red;
+        }
+    </style>
+
+</head>
+<body>
+        <!--
+            这种方式的缺点：
+         1.只能在同一页面内复用代码，不能在多个页面中复用
+         2.维护起来不方便。工作量大
+        -->
+    <div >div标签1</div>
+    <div >div标签2</div>
+    <span >span标签1</span>
+    <span >span标签2</span>
+    <p>p段落标签</p>
+    <p>p段落标签</p>
+</body>
+</html>

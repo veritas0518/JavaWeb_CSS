@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>组合选择器</title>
+</head>
+        <!--
+            组合选择器的格式是：
+                选择器1,选择器2,选择器n{
+                    属性: 值;
+                }
+
+        作用：组合选择器可以让多个选择器共用同一个css样式代码
+        -->
+<style type="text/css">
+    .class01, #id001 {
+        color: blue;
+        font-size: 20px;
+        border: 1px yellow solid;
+    }
+</style>
+<body>
+<div class="class01">div标签class01</div>
+<div class="class02">div标签class02</div>
+<span id="id001">id选择器001</span>
+</body>
+</html>

@@ -1,0 +1,15 @@
+/*
+                （选择器）p{              (值)
+                             font-size: 80px;
+                        }     （属性）
+
+         如果要定义不止一个声明，则需要用分号将每个声明分开
+
+*/
+div {
+    border: 1px solid yellow;
+}
+
+span {
+    border: 1px solid red;
+}
